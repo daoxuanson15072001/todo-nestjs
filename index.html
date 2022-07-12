@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js" integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs" crossorigin="anonymous"></script>
+    <script>
+        function sendMessage(data) {
+          const socket = io('http://localhost:3000');
+          
+        }
+      // const socket = io('http://localhost:3000');
+      // socket.on('connect', function() {
+      //   console.log('Connected');
+
+      //   socket.emit('events', { test: 'test' });
+      //   socket.emit('identity', 0, response =>
+      //     console.log('Identity:', response),
+      //   );
+      // });
+      // socket.on('events', function(data) {
+      //   console.log('event', data);
+      // });
+      // socket.on('exception', function(data) {
+      //   console.log('event', data);
+      // });
+      // socket.on('disconnect', function() {
+      //   console.log('Disconnected');
+      // });
+    </script>
+  </head>
+
+  <body>
+    <div style="display: flex; flex-direction: column; align-items: center; ">
+      <input name="ten_dang_nhap" style="height: 30px; width : 300px ; padding : 10px ; border : 2px solid green" , onchange="">
+      <textarea name = "bang_tin" style= "height: 500px; width: 300px;"></textarea>
+    </div>
+  </body>
+</html>
